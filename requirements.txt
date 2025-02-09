@@ -1,0 +1,11 @@
+# Dependencias principales
+fpdf2==2.7.6
+Pillow==10.2.0
+pyinstaller==6.3.0
+
+# Construcción y empaquetado
+PyInstaller
+pyinstaller-hooks-contrib==2024.0
+
+# Otras dependencias
+packaging==23.2
