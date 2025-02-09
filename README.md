@@ -30,4 +30,4 @@ Aplicación portable para convertir archivos de texto a PDF.
    python build.py
    ```
 
-El ejecutable se creará en la carpeta `dist/`. 
+El ejecutable se creará en la carpeta `ConversorPDF`. 
