@@ -1,33 +1,33 @@
-# Convertidor TXT a PDF
+# TXT to PDF Converter
 
-Aplicación portable para convertir archivos de texto a PDF.
+Portable application to convert text files to PDF.
 
-## Uso
-1. Ejecute `ConvertidorPDF.exe` (Windows) o `ConvertidorPDF` (Unix)
-2. Seleccione su archivo TXT
-3. El PDF se generará en la ubicación que elija
+## Usage
+1. Run `ConvertidorPDF.exe` (Windows) or `ConvertidorPDF` (Unix)
+2. Select your TXT file
+3. The PDF will be generated in your chosen location
 
-## Características
-- Portable (no requiere instalación)
-- Interfaz gráfica intuitiva
-- Soporte para caracteres especiales
-- Vista previa automática del PDF generado
+## Features
+- Portable (no installation required)
+- Intuitive graphical interface
+- Special characters support
+- Automatic preview of generated PDF
 
-## Para Desarrolladores
-1. Crear entorno virtual:
+## For Developers
+1. Create virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # o 'venv\Scripts\activate' en Windows
+   source venv/bin/activate  # or 'venv\Scripts\activate' on Windows
    ```
 
-2. Instalar dependencias:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Construir ejecutable:
+3. Build executable:
    ```bash
    python build.py
    ```
 
-El ejecutable se creará en la carpeta `ConversorPDF`. 
+The executable will be created in the `ConversorPDF` folder. 
